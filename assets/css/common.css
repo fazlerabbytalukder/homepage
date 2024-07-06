@@ -1,0 +1,107 @@
+/* import fonts */
+@font-face {
+    font-family: "poppins";
+    src: url(../fonts/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "boska";
+    src: url(../fonts/Boska-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "switzer";
+    src: url(../fonts/Switzer-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "avenir";
+    src: url(../fonts/AvenirNextLTPro-Regular.otf) format('truetype');
+}
+
+:root {
+    --primary-color: #75FF69;
+    --secondary-color: #1B3936;
+    --ternary-color: #678784;
+    --white-color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+body {
+    background-image: url(../images/bg/bg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* container define according template */
+.container-fluid {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.container {
+    padding: 0 125px;
+}
+
+/* some common class use */
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.justify-start {
+    justify-content: start;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.item-end {
+    align-items: end;
+}
+
+.item-start {
+    align-items: start;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.overflow-hidden-x {
+    overflow-x: hidden;
+}
